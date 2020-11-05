@@ -16,8 +16,8 @@ if ($ketemu > 0) {
     $_SESSION['passuser'] = $r['password'];
 
     echo "USER BERHASIL LOGIN<br>";
-    echo "id user", $_SESSION['iduser'],"<br>";
-    echo "password", $_SESSION['passuser'], "<br>";
+    echo "id user ", $_SESSION['id_user'],"<br>";
+    echo "password ", $_SESSION['passuser'], "<br>";
     echo "<a href=logout.php><b>LOGOUT</b></a></center>";
 }else {
     echo "<center>Login Gagal! username & password tidak benar<br>";
